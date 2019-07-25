@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"allowSyntheticDefaultImports": true,
+		"outDir": "dist",
+		"module": "commonjs",
+		"target": "es5",
+		"lib": ["es2015", "dom"],
+		"sourceMap": true,
+		"jsx": "react",
+		"moduleResolution": "node",
+		"rootDir": "./src",
+		"forceConsistentCasingInFileNames": false,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": false,
+		"importHelpers": true,
+		"strictNullChecks": false,
+		"experimentalDecorators": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true,
+		"paths": {
+			"@/*": ["*"],
+			"@cmp/*": ["components/*"],
+			"@ctn/*": ["containers/*"]
+		}
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["node_modules", "dist", "scripts", "public", "config"]
+}
